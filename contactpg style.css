@@ -1,0 +1,144 @@
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e4;
+    color: #686868;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(51, 51, 51, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4274fc;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: center;
+    color: #080708;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Styles */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #2c3e50;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: 1px solid #a19f9f;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    background-color: #0668e7;
+    color: hsl(0, 100%, 99%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2257c9a9;
+  }
+  
+  /* Contact Info Styles */
+  .contact-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .info-item {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(69, 109, 241, 0.1);
+  }
+  
+  .info-item i {
+    font-size: 24px;
+    color: #3f77f0;
+    margin-bottom: 10px;
+  }
+ 
+  .info-item p {
+    margin: 0;
+    color: #161414;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-info {
+      flex-direction: column;
+    }
+  
+    .info-item {
+      margin: 10px 0;
+    }
+  }
+
+  /* Map Container Styles */
+.map-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .map-container h2 {
+    color: #2254fa;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-style: italic; 
+}
+  
+  iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(56, 87, 230, 0.1);
+  }
